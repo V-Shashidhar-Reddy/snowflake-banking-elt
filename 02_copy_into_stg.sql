@@ -1,0 +1,4 @@
+COPY INTO stg_txns
+FROM @s3_stage/credit_txn/
+FILE_FORMAT = (TYPE = 'CSV' FIELD_OPTIONALLY_ENCLOSED_BY = '"')
+ON_ERROR = 'SKIP_FILE';
