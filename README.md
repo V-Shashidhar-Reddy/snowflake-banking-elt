@@ -31,10 +31,7 @@ Daily credit card transactions are loaded from AWS S3 using Snowpipe into Snowfl
 
 ---
 
-## Status
-Project files uploaded and ready. You can enhance it later by adding:
-- Stream & Task
-- Auto-ingest demo
-- Sample CSV
+## 📌 Notes
+This is a complete ELT use case simulation based on real-time banking transaction data using Snowflake.
 
 
