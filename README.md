@@ -18,7 +18,7 @@ Daily credit card transactions are loaded from AWS S3 using Snowpipe into Snowfl
 
 ---
 
-## 🔁 ELT Flow Summary
+## ELT Flow Summary
 
 1. Files are auto-ingested from AWS S3 using `txn_pipe` (Snowpipe)
 2. Data lands in `stg_txns` using COPY INTO
@@ -39,7 +39,7 @@ Daily credit card transactions are loaded from AWS S3 using Snowpipe into Snowfl
 
 ---
 
-## 📌 Notes
+## Notes
 This is a complete ELT use case simulation based on real-time banking transaction data using Snowflake.
 
 
